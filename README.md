@@ -28,7 +28,7 @@ php app.php [server | client]
 ## Интсрукция по установке демо проекта:
 
 ```console
-composer create-project kyberlox/composer_chat
+composer create-project kyberlox/composer_chat:dev-master
 cd  composer-test
 php app.php [server | client]
 ```
