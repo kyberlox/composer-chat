@@ -7,7 +7,7 @@
 1. В папке проекта нужно прописать
 
 ```console
-composer req kyberlox/composer_chat
+composer req kyberlox/composer_chat:dev-master
 ```
 
 2. Можно перейти в
