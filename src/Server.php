@@ -20,7 +20,6 @@ class Server
     {
         $this->server->SocketBind();
         $this->server->SocketListen();
-        $this->server->SocketConnect();
         $this->server->SocketAccept();
         while (true) {
             $msg = $this->server->readMessage();
